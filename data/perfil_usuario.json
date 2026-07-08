@@ -1,0 +1,27 @@
+{
+  "usuario": {
+    "nome": "Lucas",
+    "idade": 19,
+    "fase_profissional": "Estágio Técnico em TI",
+    "renda_mensal_liquida": 1500.0,
+    "objetivo_principal": "Construir a primeira Reserva de Emergência"
+  },
+  "gastos_fixos_cadastrados": [
+    {
+      "categoria": "Transporte",
+      "valor": 150.0,
+      "descricao": "Bilhete de transporte mensal"
+    },
+    {
+      "categoria": "Alimentação",
+      "valor": 80.0,
+      "descricao": "Lanches na faculdade/trabalho"
+    },
+    {
+      "categoria": "Assinaturas",
+      "valor": 60.0,
+      "descricao": "Streaming de vídeo e música"
+    }
+  ],
+  "saldo_em_conta": 1210.0
+}

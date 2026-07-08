@@ -1,0 +1,34 @@
+{
+  "cenarios_referencia": [
+    {
+      "faixa_renda": "R$ 1.000,00 a R$ 1.499,00",
+      "perfil_comum": "Estagiário ou Jovem Aprendiz",
+      "distribuicao_sugerida": {
+        "necessidades_50": 600.0,
+        "desejos_30": 360.0,
+        "poupanca_20": 240.0
+      },
+      "conselho_chave": "Nessa fase, focar em reduzir despesas supérfluas recorrentes (como aplicativos de transporte ou delivery em excesso) faz uma diferença enorme percentualmente."
+    },
+    {
+      "faixa_renda": "R$ 1.500,00 a R$ 2.499,00",
+      "perfil_comum": "Desenvolvedor Júnior / Técnico",
+      "distribuicao_sugerida": {
+        "necessidades_50": 750.0,
+        "desejos_30": 450.0,
+        "poupanca_20": 300.0
+      },
+      "conselho_chave": "Pague-se primeiro. Assim que o salário cair na conta, separe imediatamente os 20% da poupança para uma conta separada antes de começar a gastar o resto."
+    },
+    {
+      "faixa_renda": "R$ 2.500,00 a R$ 4.000,00",
+      "perfil_comum": "Analista Pleno / Recém-Formado",
+      "distribuicao_sugerida": {
+        "necessidades_50": 1500.0,
+        "desejos_30": 900.0,
+        "poupanca_20": 600.0
+      },
+      "conselho_chave": "Cuidado com o estilo de vida inflacionado. Conforme a renda aumenta, tente manter seus custos fixos baixos por mais um tempo para acelerar a criação do seu patrimônio."
+    }
+  ]
+}
