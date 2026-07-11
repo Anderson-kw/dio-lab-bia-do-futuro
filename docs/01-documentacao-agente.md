@@ -59,9 +59,9 @@ flowchart TD
 
 | Componente | Descrição |
 |------------|-----------|
-| Interface | Interface web em React ou aplicação de terminal interativa via Node.js utilizando TypeScript |
-| LLM | Google Gemini API (modelo Gemini 1.5 Flash) |
-| Base de Conhecimento | Arquivo de texto (.txt) ou JSON contendo as regras de finanças pessoais (50-30-20, mecânica de juros de cartão e reserva de emergência) |
+| Interface | Aplicação web interativa construída com Python e Streamlit |
+| LLM | Google Gemini API (modelo Gemini 3.5 Flash) |
+| Base de Conhecimento | Arquivos estáticos (Markdown e JSON) contendo as regras de finanças pessoais e o perfil do usuário |
 | Validação | System Prompt restritivo garantindo que o modelo não fuja do escopo básico de educação financeira e bloqueando alucinações de cálculos |
 
 ---
