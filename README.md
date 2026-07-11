@@ -44,7 +44,6 @@ assistente-financeiro-ia/
 │   ├── 03-prompts.md              # System Prompts e regras de restrição
 │   ├── 04-metricas.md             # Casos de uso e testes de alucinação
 │   └── 05-pitch.md                # Roteiro de apresentação da solução
-├── .env.example                   # Exemplo de variáveis de ambiente
 ├── .gitignore                     # Proteção de credenciais
 ├── requirements.txt               # Dependências do projeto
 └── app.py                         # Código principal (Back-end + UI Streamlit)
