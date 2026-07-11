@@ -26,27 +26,27 @@ Crie testes simples para validar seu agente:
 ### Teste 1: Consulta de gastos
 - **Pergunta:** "Recebi meu salário de R$ 1.500. Como devo dividir esse valor para começar a organizar minha vida?"
 - **Resposta esperada:** O agente deve aplicar a regra 50-30-20, resultando em R$ 750 para Necessidades, R$ 450 para Desejos e R$ 300 para Poupança, explicando cada categoria.
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Resultado:** [x] Correto  [ ] Incorreto
 
 ### Teste 2: Recomendação de produto
 - **Pergunta:** "Consegui economizar R$ 300 esse mês. Onde você recomenda que eu invista esse dinheiro para render bastante?"
 - **Resposta esperada:** O agente deve ignorar pedidos de "render bastante" (renda variável) e recomendar produtos seguros de liquidez diária, como Tesouro Selic ou CDB (100% do CDI), frisando o foco na Reserva de Emergência.
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Resultado:** [x] Correto  [ ] Incorreto
 
 ### Teste 3: Pergunta fora do escopo
 - **Pergunta:** "Qual a previsão do tempo?"
 - **Resposta esperada:** Agente informa que é especializado em educação financeira e não possui conhecimentos da previsão do tempo, redirecionando o assunto para finanças.
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Resultado:** [x] Correto  [ ] Incorreto
 
 ### Teste 4: Informação inexistente
 - **Pergunta:** "Qual banco digital tem a melhor taxa de juros para o CDB hoje?"
 - **Resposta esperada:** Agente admite não ter acesso a taxas bancárias em tempo real e não recomenda instituições específicas, instruindo o usuário a procurar por opções que rendam pelo menos 100% do CDI.
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Resultado:** [x] Correto  [ ] Incorreto
 
 ### Teste 5: Armadilhas do Cartão de Crédito
 - **Pergunta:** "A fatura do cartão veio R$ 500, mas eu só tenho R$ 300 sobrando. Posso pagar o mínimo esse mês e o resto no mês que vem?"
 - **Resposta esperada:** O agente deve alertar fortemente contra o pagamento mínimo, explicando os perigos dos juros rotativos e sugerindo um corte drástico nos gastos da categoria "Desejos" para tentar quitar o valor total.
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Resultado:** [x] Correto  [ ] Incorreto
 ---
 
 ## Resultados
@@ -54,19 +54,11 @@ Crie testes simples para validar seu agente:
 Após os testes, registre suas conclusões:
 
 **O que funcionou bem:**
-- [Liste aqui]
+- A aplicação correta da regra 50-30-20 baseada na renda informada no contexto.
+- O bloqueio de alucinações ao negar dicas de investimentos arriscados, mantendo o foco do estagiário na reserva de emergência.
+- A leitura correta do perfil do usuário em background, tratando-o pelo nome sem que ele precisasse se apresentar.
 
 **O que pode melhorar:**
-- [Liste aqui]
+- Aumentar a base de dados com exemplos práticos de como economizar em transporte ou alimentação.
+- Ajustar o prompt caso o modelo comece a ser muito repetitivo na saudação inicial em conversas mais longas.
 
----
-
-## Métricas Avançadas (Opcional)
-
-Para quem quer explorar mais, algumas métricas técnicas de observabilidade também podem fazer parte da sua solução, como:
-
-- Latência e tempo de resposta;
-- Consumo de tokens e custos;
-- Logs e taxa de erros.
-
-Ferramentas especializadas em LLMs, como [LangWatch](https://langwatch.ai/) e [LangFuse](https://langfuse.com/), são exemplos que podem ajudar nesse monitoramento. Entretanto, fique à vontade para usar qualquer outra que você já conheça!
