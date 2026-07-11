@@ -29,11 +29,11 @@ O diferencial técnico é a forte restrição contra alucinações (a IA é blin
 
 ## Checklist do Pitch
 
-- [ ] Duração máxima de 3 minutos
-- [ ] Problema claramente definido
-- [ ] Solução demonstrada na prática
-- [ ] Diferencial explicado
-- [ ] Áudio e vídeo com boa qualidade
+- [x] Duração máxima de 3 minutos
+- [x] Problema claramente definido
+- [x] Solução demonstrada na prática
+- [x] Diferencial explicado
+- [x] Áudio e vídeo com boa qualidade
 
 ---
 
@@ -41,4 +41,4 @@ O diferencial técnico é a forte restrição contra alucinações (a IA é blin
 
 > Cole aqui o link do seu pitch (YouTube, Loom, Google Drive, etc.)
 
-[Link do vídeo]
+[[ Vídeo Pitch Agente IA - Mentor Primeiro Salário ]](https://drive.google.com/file/d/1cWvJnDDQHwvBjt7XUxlhdKWuIPeFozFY/view?usp=sharing)
